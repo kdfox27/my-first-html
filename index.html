@@ -3,9 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Talking Coffee</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap" rel="stylesheet"> 
 </head>
 <body>
-    <h1>Hello world!
+    <header>
+        <h1>Talking Coffee</h1>
+        <p class="sub-heading">Most people <b>drink</b> coffee, others like to <em>splash</em> it on their face!</p>
+    </header>
+    <nav class="menu-bar">
+        <ul>
+            <li>
+                <a href="#overview"> Overview </a>
+            </li> 
+            <li>
+                <a href="#drinkNow"> Drink Now </a>
+            </li> 
+            <li>
+                <a href="#purchase"> Purchase </a>
+            </li> 
+            <li>
+                <a href="#learnMore"> Learn More </a>
+            </li> 
+        </ul>
+    </nav>
+        <main>
+        <h1 id="overview">Overview</h1>
+            <div class="brewing">
+                <h2>Coffee Brewing Methods</h2>
+                    <ul>
+                        <li>Machine pour over</li>
+                        <li>French press</li>
+                        <li>Aeropress</li>
+                        <li>Manual pour over (Chemex, Coffee Cone)</li>
+                        <li>Cold brew</li>
+                    </ul>
+            </div>
+            <div class="brew-table">
+                <h2>Coffee Taste vs. Brew Method</h2>
+                    <p>The most expensive brew method does not always reflect the
+                        taste of the final product. Some people think K-Cups taste good--
+                        those people are wrong.
+                    </p>
+                <!-- Insert a table here-->
+                <table>
+                    <tr>
+                        <th>Brewing Equipment</th>
+                        <th>Cost</th>
+                        <th>Pour Quality (1 - 10)</th>
+                    </tr>
+                    <tr>
+                        <td>French press</td>
+                        <td>$20</td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <td>Chemex</td>
+                        <td>$45</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <td>Keurig Slim</td>
+                        <td>$80</td>
+                        <td>2</td>
+                    </tr>
+                </table>
+            </div>
+            <article>
+                <div class="directions">
+                    <h2>How to Make French Pressed Coffee</h2>
+                        <p>The French press is my prefered brew method, because its an excellent balance
+                            between the cost of the equipment and<br> taste of the coffee. Here's how you create 
+                            the perfect cup:
+                        </p>
+                        <ol>
+                            <li>Grind 2 tbs of coffee per 6oz of water</li>
+                            <li>Pour required amount of hot water (just under boiling temperature) over grounds</li>
+                            <li>Let grounds steep for 4 - 5 minutes</li>
+                            <li>Press with strainer, pour, and enjoy</li>
+                        </ol>
+                </div>
+                <div class="img-block">
+                    <img class="frenchpress-img" src="https://crema.co/brew-guide-images/french-press/thumbnail.jpg" />
+                </div>
+            </article>
+        </main>
+    <div id="">
+
+    </div>
+    <footer>
+        <p>Made with honest opinions by Kevin Fox</p>
+    </footer>
+    
 </body>
 </html>

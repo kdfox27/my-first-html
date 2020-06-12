@@ -1,0 +1,149 @@
+body {
+    --color1: #22223b;
+    --color2: #4a4e69;
+    --color3: #9a8c98;
+    --color4: #c9ada7;
+    --color5: #f2e9e4;
+
+    font-family: 'Oswald', sans-serif;
+    background-color: var(--color5);
+}
+
+header {
+    background-image: url(https://media.mnn.com/assets/images/2016/10/Coffee%20cup%20and%20coffee%20beans%20on%20table.jpg.1440x960_q100_crop-scale_upscale.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: var(--color1);
+    padding: 15px;
+    font-size: 40px;
+}
+
+nav {
+    
+}
+
+    nav li {
+        list-style-type: none;
+        margin: 0 2vw;
+    }
+
+    nav ul {
+        display: flex;
+        margin: 0;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: white;
+        padding: 1vw;
+    }
+
+        nav a:hover{
+            background-color: var(--color2);
+        }
+
+main {
+    font-size: larger
+}
+
+main h1 {
+    font-size: 50px;
+    background-color: var(--color2);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 50px;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    width: 60%;
+}
+
+th {
+    background-color: var(--color1);
+    border: 3px solid;
+    border-color: black;
+    color: white;
+}
+
+td {
+    border: 2px solid;
+    text-align: center;
+}
+
+footer {
+    background-color: var(--color2);
+    border-color: black;
+    border-style: solid;
+    line-height: 2px;
+    padding: 15px;
+}
+
+article {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.sub-heading {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: var(--color1);
+    padding: 15px;
+    font-size: 35px;
+}
+
+.header-img {
+    display: flex;
+    margin-left: auto;
+    height: 300px;
+    width: 450px;
+}
+
+.menu-bar {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    align-items: flex-end;
+    background-color: var(--color1);
+    font-size: larger;
+    color: white;
+}
+
+.brewing {
+    padding: 15px;
+}
+
+.brew-table {
+    text-align: center;
+    background-color: var(--color3);
+    padding: 15px;
+    margin: 5px;
+}
+
+.directions {
+    display: block;
+    margin-right: 20px;
+}
+
+.img-block {
+    margin-left: 20px
+}
+
+.frenchpress-img {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
